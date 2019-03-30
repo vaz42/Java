@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Change{
     public static void main(String[] args){
-        Scanner ent = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("Enter the total amount: ");
-        int n = ent.nextInt();
+        int n = in.nextInt();
         System.out.println("$100 bills: " + n / 100);
         n %= 100;
         System.out.println(" $50 bills: " + n / 50);
