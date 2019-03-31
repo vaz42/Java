@@ -1,4 +1,4 @@
-Laboratório 02 – 2019
+Laboratório 01 – 2019
 =====================
 
 1. Faça um programa que exiba a mensagem “Alo Mundo!”.
