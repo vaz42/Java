@@ -25,25 +25,25 @@ Laboratório 02 – 2019
   
 6. (Order) Uma fábrica possui o seguinte critério para atender ao pedido de um revendedor de acordo com o seu tipo:
 
-  • Caso seja 1, ele é atendido em 100% da quantidade solicitada;
-  • Caso seja 2, ele é atendido em 60% da quantidade solicitada;
-  • Caso seja 3, ele é atendido em 40% da quantidade solicitada;
+  - Caso seja 1, ele é atendido em 100% da quantidade solicitada;
+  - Caso seja 2, ele é atendido em 60% da quantidade solicitada;
+  - Caso seja 3, ele é atendido em 40% da quantidade solicitada;
   A quantidade atendida não pode ser inferior a 1 unidade nem superior a 1000.
   
   Faça um programa que leia o tipo do revendedor e a quantidade por ele solicitada e exiba a quantidade a ser entregue
   pela fábrica e uma das mensagens abaixo:
   
-  • “Pedido Fechado”, caso o pedido seja atendido integralmente;
-  • “Pedido Pendente”, caso o pedido não seja atendido integralmente. Neste caso, o programa deverá exibir também a 
+  - “Pedido Fechado”, caso o pedido seja atendido integralmente;
+  - “Pedido Pendente”, caso o pedido não seja atendido integralmente. Neste caso, o programa deverá exibir também a 
     quantidade que ficou pendente (ou seja, que não foi atendida).
     
 7. (Expiration Date) Escreva um programa que leia a quantidade de produtos conferidos e a quantidade de produtos fora da validade e exiba
   o valor da multa, de acordo com as seguintes regras:
 
-  • 0,00: caso nenhum produto conferido esteja fora da validade;
-  • 100,00: caso até 10% dos produtos conferidos estejam fora da validade;
-  • 10.000,00: caso mais de 10% e até 30% dos produtos conferidos estejam fora da validade; e
-  • 100.000,00: caso mais de 30% dos produtos conferidos estejam fora da validade.
+  - 0,00: caso nenhum produto conferido esteja fora da validade;
+  - 100,00: caso até 10% dos produtos conferidos estejam fora da validade;
+  - 10.000,00: caso mais de 10% e até 30% dos produtos conferidos estejam fora da validade; e
+  - 100.000,00: caso mais de 30% dos produtos conferidos estejam fora da validade.
   
 8. (Costume Competition) Um concurso de fantasias é avaliado por três jurados. Para evitar distorções, são desprezadas a maior e a menor nota,
   ou seja, apenas uma nota é válida. Faça um que leia as 3 notas dadas pelos jurados e exiba a nota válida. Considere 
