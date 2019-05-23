@@ -1,6 +1,5 @@
-##Projeto de Desenvolvimento de Sistemas
-##Trabalho do Primeiro Bimestre - 2019
-
+Trabalho do Primeiro Bimestre - 2019
+=========================================
 
   Faça um programa para calcular o pagamento de um funcionário de uma empresa. Este programa
 deverá ler os seguintes dados do funcionário: matrícula, salário base, quantidade de horas extra,
