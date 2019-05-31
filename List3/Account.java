@@ -1,8 +1,20 @@
 public class Account{
-    int account;
-    String ownerName;
-    double balance;
-    double limit;
+    private int account;
+    private String ownerName;
+    private double balance;
+    private double limit;
+
+
+    Account(String name){
+        this.ownerName = name;
+    }
+
+    Account(String name, double value){
+        this.ownerName = name;
+        this.balance = value;    
+    }
+
+    Account(){ this("Um trouxa qualquer"); }
 
     public boolean cashOut(double value){
         if(this.balance + this.limit >= value){
@@ -20,7 +32,7 @@ public class Account{
         return false;
     }
 
-    public boolean cashTransf(Conta destiny, double value){
+    public boolean cashTransf(Account destiny, double value){
         if(this.balance >= value){
             this.cashOut(value);
             destiny.cashDeposit(value);
@@ -28,4 +40,10 @@ public class Account{
         }
         return false;
     }
+
+    public double getBalance(){ return this.balance; }
+
+    public void setBalance(double value){ this.balance = value; }
+
+    public String getOwnerName(){ return this.ownerName; }
 }
