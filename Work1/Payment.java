@@ -1,4 +1,3 @@
-/* Leonardo de Oliveira Silva Vaz */
 import java.util.Scanner;
 public class Payment{
     public static void main(String[] args){
