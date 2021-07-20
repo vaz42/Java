@@ -13,33 +13,33 @@ f) Fim (encerrar o programa)
 Classes:
 
 1. Agenda:
-  a. Propriedades: array de pessoas, quantidade de elementos no array.
-  b. Construtor: instanciar o array e inicializar a quantidade de elementos no array.
-  c. Métodos: incluir uma pessoa, excluir uma pessoa, alterar os dados de uma pessoa a partir
+  a) Propriedades: array de pessoas, quantidade de elementos no array.
+  b) Construtor: instanciar o array e inicializar a quantidade de elementos no array.
+  c) Métodos: incluir uma pessoa, excluir uma pessoa, alterar os dados de uma pessoa a partir
   do nome, permitindo escolher o dado a ser alterado, exibir os dados de uma pessoa, listar
   toda a agenda em ordem alfabética.
 
 2. Endereço:
-  a. sobrecarga de construtores:
-    i. default;
-    ii. tipo de logradouro, nome do logradouro, número;
-    iii. tipo de logradouro, nome do logradouro, número, complemento;
-    iv. tipo de logradouro, nome do logradouro, número, apartamento;
-    v. tipo de logradouro, nome do logradouro, número, apartamento, complemento.
-  b. Método para exibir os dados do endereço.
+  a) sobrecarga de construtores:
+    -i default;
+    -ii tipo de logradouro, nome do logradouro, número;
+    -iii tipo de logradouro, nome do logradouro, número, complemento;
+    -iv tipo de logradouro, nome do logradouro, número, apartamento;
+    -v tipo de logradouro, nome do logradouro, número, apartamento, complemento.
+  b) Método para exibir os dados do endereço.
 
 3. Pessoa:
-  a. Propriedades: nome e telefone celular (DDD e número).
-  b. Método: para exibir os dados.
+  a) Propriedades: nome e telefone celular (DDD e número).
+  b) Método: para exibir os dados.
 
-4. Amigo, herda da classe Pessoa.
-  a. Propriedades: data do aniversário (dia e mês do aniversário) e Endereço residencial.
-  b. Método: para exibir os dados.
+4. Amigo, herda da classe Pessoa:
+  a) Propriedades: data do aniversário (dia e mês do aniversário) e Endereço residencial.
+  b) Método: para exibir os dados.
 
-5. Contato Profissional, herda da classe Pessoa.
-  a. Propriedades: email, nome da empresa, telefone comercial (DDD e número do telefone) e
+5. Contato Profissional, herda da classe Pessoa:
+  a) Propriedades: email, nome da empresa, telefone comercial (DDD e número do telefone) e
   Endereço comercial.
-  b. Método: para exibir os dados.
+  b) Método: para exibir os dados.
 
 6. Classe principal. Para testar a agenda.
 
